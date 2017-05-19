@@ -21,4 +21,5 @@ case infection_level(City, Infection) of
         {CityName, 
         Neighbours, 
         Diseases#{Infection => maps:get(Infection, Diseases, 0) + 1}}
-    }.
+    }
+end.
